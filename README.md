@@ -4,7 +4,7 @@
    calendar --help
 SYNOPSIS
     calendar [-A num] [-B num] [-f calendarfile]
-For more detail, please see http://github.com/cympfh/calendar
+For more detail, please see https://github.com/cympfh/calendar
 ```
 
 Linux に入ってる CALENDAR(1) の使ってる機能だけを残して欲しい機能を追加したもの
@@ -17,7 +17,7 @@ Linux に入ってる CALENDAR(1) の使ってる機能だけを残して欲し�
 
 ## 無いもの
 
-- `-f` が指定されないとき、デフォルトでカレントディレクトリの `calendar` を読み込んでいましたが、消えました. どこで calendar コマンドを打つかは分からないからです
+- `-f` が指定されないとき、デフォルトでカレントディレクトリの `calendar` を読み込んでいましたが、消えました. どこで calendar コマンドを打つかは分からないからです. `cd` してから `calendar` するエイリアスまでわざわざ作っていました. 不毛です.
 - その他のオプション: 色々あったけれど、使わないことに気付いたので実装しません
 
 ## 追加されたもの
